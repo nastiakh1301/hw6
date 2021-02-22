@@ -37,7 +37,7 @@ def medium():
     size = 8 
     medium = ''.join(random.choice(password) for i in range(size))
     password = medium
-    return medium
+    return password
 
 
 def hard():
